@@ -13,6 +13,7 @@ function Subtotal() {
     for(let i=0;i<basket.length;i++){
         total+=basket[i].price;
       }
+      // return total;
       return total;
   }
 
